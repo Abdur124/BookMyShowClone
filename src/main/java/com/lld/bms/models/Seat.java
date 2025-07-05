@@ -10,10 +10,10 @@ import lombok.Setter;
 @Entity
 public class Seat extends BaseModel {
 
-	@Column(name = "row_number")
+	@Column(name = "seat_row")
 	private int row;
 	
-	@Column(name = "col_number")
+	@Column(name = "seat_col")
 	private int col;
 	private String seatNumber;
 	@Enumerated(EnumType.STRING)
