@@ -20,7 +20,7 @@ public class BookMyShowApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("INITIALISING DATA....");
-		initService.initialise();
+		//initService.initialise();
 	}
 
 }

@@ -19,6 +19,10 @@ public class ShowSeatService {
 		return showSeatRepository.save(ShowSeat);
 	}
 	
+	public ShowSeat updateShowSeat(ShowSeat ShowSeat) {
+		return showSeatRepository.save(ShowSeat);
+	}
+	
 	public List<ShowSeat> getShowSeats() {
 		return showSeatRepository.findAll();
 	}
